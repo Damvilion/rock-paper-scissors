@@ -1,5 +1,3 @@
-// let playerselection = 'rock'
-
 function getCompChoice(){
     let choices = ["rock", "paper", "scissors"];
     let choice = choices[Math.floor(Math.random()*choices.length)];
@@ -26,12 +24,6 @@ function play(player_choice, comp_choice){
         return "You lost";
     }
 }
-
-
-// winner = play(playerselection, getCompChoice());
-
-// console.log(`you played ${playerselection}`)
-// console.log(winner);
 
 function game(){
     for(let i = 0; i < 5; i++){
